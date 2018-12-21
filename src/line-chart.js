@@ -197,12 +197,12 @@ class LineChart extends AbstractChart {
               paddingTop,
               paddingRight
             })}
-            {this.renderVerticalLines({
+            {/* {this.renderVerticalLines({
               ...config,
               data: data.datasets[0].data,
               paddingTop,
               paddingRight
-            })}
+            })} */}
             {this.renderVerticalLabels({
               ...config,
               labels,
