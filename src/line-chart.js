@@ -80,7 +80,7 @@ class LineChart extends AbstractChart {
           points={points.join(' ')}
           fill="none"
           stroke={this.props.chartConfig.color(0.2)}
-          strokeWidth={3}
+          strokeWidth={1}
         />
       )
 
@@ -125,7 +125,7 @@ class LineChart extends AbstractChart {
             d={result}
             fill="none"
             stroke={this.props.chartConfig.color(0.2)}
-            strokeWidth={3}
+            strokeWidth={1}
           />
         )
       });
